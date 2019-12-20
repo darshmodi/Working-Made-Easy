@@ -1,0 +1,59 @@
+
+
+.News-container{
+    /* height: 100px; */
+    text-align: center;
+    font-size: 40px;
+    margin : 0;
+    padding: 0;
+}
+.news1{
+    background-color: #a4eaff;
+    height: 400px;
+    text-align: Left;
+    font-size: 20px;
+}
+.news2{
+    background-color: #a4eaff;
+    height: 400px;
+    text-align: Left;
+    font-size:20px;
+}
+.news3{
+    background-color: #a4eaff;
+    height: 400px;
+    text-align: Left;
+    font-size:20px;
+}
+.news4{
+    background-color: #a4eaff;
+    height: 400px;
+    text-align: Left;
+    font-size:20px;
+}
+.i1 img{
+    height: 75px;
+}
+.i2 img{
+    height: 75px;
+}
+.i3 img{
+    height: 75px;
+}
+.i4 img{
+    height: 75px;
+}
+.unit{
+    text-align : right;
+    font-size: 20px;
+    
+}
+
+.Cric{
+    height: 1000px;
+    text-align: left;
+    text-decoration: bold;
+    font-size: 16px;
+    padding: 10px;
+    line-height: 21pt;
+}

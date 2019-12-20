@@ -1,0 +1,74 @@
+<!DOCTYPE >
+<html>
+    <head>
+            <script src="Script.js"></script>
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js">
+            </script>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="Navbarstyle.css">
+        <title>My Website</title>
+        <!-- <div id="heading">
+        <h1>Requirements</h1>
+        <p>This should make your work easy...</p>
+        </div> -->
+
+        <script>
+                function startTime() {
+                  var today = new Date();
+                  var h = today.getHours();
+                  var m = today.getMinutes();
+                  var s = today.getSeconds();
+                  m = checkTime(m);
+                  s = checkTime(s);
+                  document.getElementById('time').innerHTML =
+                   h + ":" + m + ":" + s ;
+                  var t = setTimeout(startTime, 500);
+                }
+                // var today1 = new Date();
+                // document.getElementById('date1').innerHtml = today1.toDateString();
+
+                function checkTime(i) {
+                  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+                  return i;
+                }
+       
+            function datecall1(){
+            var today1 = new Date();
+                document.getElementById('date1').innerHTML = today1.toDateString();
+            }
+            
+
+        </script>
+
+    </head>
+    <body onload="startTime() + datecall1()">
+        <section>
+            <div class="headimage" ></div>
+            </section>
+            <section>
+            <!-- <div id="heading">
+            <h1>Requirements</h1>
+            <p>This should make your work easy...</p>
+            </div> -->
+            </section>
+        <div class="NavBar">
+            <div class="datecss">
+                
+                <span id="date1"></span>
+                <br>
+                <span id="time"></span>   
+            </div>
+            <div>
+            <a href="Developer.html">Developer</a> 
+            <a href=" ">Contribute</a>
+            <a href="index.html">Home</a>
+            </div> 
+        </div>
+        <div class="Developer">
+        <img src="https://mail.google.com/mail/u/0?ui=2&ik=f5905f06f4&attid=0.1&permmsgid=msg-a:r-4742669960509732644&th=16eec0eb0311171c&view=att&disp=safe&realattid=16eec0ea610c62b10af1" style="width: 400px; padding : 10px;" >
+        <h3>Name : Darsh Modi</h1>
+        <h3>Email : maverik7376@gmail.com</h3>
+        <h3>Contact : 9898442361</h3> 
+        </div>
+    </body>
+</html>

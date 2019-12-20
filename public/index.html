@@ -1,0 +1,126 @@
+<!DOCTYPE >
+<html>
+    <head>
+            <script src="Script.js"></script>
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="Navbarstyle.css">
+        <title>Working made easy</title>
+      
+
+        <script>
+                function startTime() {
+                  var today = new Date();
+                  var h = today.getHours();
+                  var m = today.getMinutes();
+                  var s = today.getSeconds();
+                  m = checkTime(m);
+                  s = checkTime(s);
+                  document.getElementById('time').innerHTML =
+                   h + ":" + m + ":" + s ;
+                  var t = setTimeout(startTime, 500);
+                }
+                // var today1 = new Date();
+                // document.getElementById('date1').innerHtml = today1.toDateString();
+
+                function checkTime(i) {
+                  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+                  return i;
+                }
+       
+            function datecall1(){
+            var today1 = new Date();
+                document.getElementById('date1').innerHTML = today1.toDateString();
+            }
+            const Facebook1 = () => {
+                     window.open("https://www.facebook.com/");
+            };
+            const Youtube1 = () => {
+                     window.open("https://www.youtube.com/?gl=IN");
+            };
+            const Spotify1 = () => {
+                     window.open("https://www.spotify.com/us/account/overview/");
+            };
+            const Gmail1 = () => {
+                     window.open("https://mail.google.com/mail/u/0/#inbox");
+            };
+            const Instagram1 = () => {
+                     window.open("https://www.instagram.com/");
+            };
+            const Photos1 = () => {
+                     window.open("https://photos.google.com/");
+            };
+            const Drvie1 = () => {
+                     window.open("https://drive.google.com/drive/u/0/my-drive");
+            };
+            
+        </script>
+
+    </head>
+    <body onload="startTime() + datecall1()">
+        <section>
+        <div class="headimage" ></div>
+        </section>
+        <section>
+        <!-- <div id="heading">
+        <h1>Requirements</h1>
+        <p>This should make your work easy...</p>
+        </div> -->
+        </section>
+            <div class="NavBar">
+            <div class="datecss">
+                
+                <span id="date1"></span>
+                <br>
+                <span id="time"></span>   
+            </div>
+            <div>
+            <a href="Developer.html">Developer</a> 
+            <a href="https://www.google.com/" target="_blank">Google</a>
+            <a href="index.html">Home</a>
+            </div> 
+        </div>
+        <div id="root">
+        <!-- <div id="root">
+
+        </div>
+        <div id="main">
+
+        </div> -->
+    </div>
+    <div class="buttons">
+        <div style="height: 50px;"></div>
+        <form name="myform" class="myform">
+            <input type="image" src="data:image/jpeg;base64,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" onclick="Youtube1()">
+        <p>Youtube</p> 
+        <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6PJ5tHVPHsha7sz3Jl_PYCLmb0xSz4EGE8d4RjWyUjsKNFOdv&s" onclick="Facebook1()">
+        <p>Facebook</p>
+        <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRRMfqeA_TZxO4dTcgU4NFXklq0shYvbGPnGl0hSDV0-NQdyGG&s" onclick="Instagram1()">
+        <p>Instagram</p>
+        <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZpg401q1IbI5iyrQxhUkX4R9OkXzpa23rI4uGN_Baha3amHpT&s" onclick="Spotify1()">
+        <p>Spotify</p>
+        <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD_LvxxsNUpp4Dusly5D40Yr-35NV-dRWiTV06ek34uqIsg5OM&s" onclick="Gmail1()">
+        <p>Gmail</p>
+        <input type="image" src="data:image/jpeg;base64,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" onclick="Photos1()">
+        <p>Google Photos</p>
+        <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEYB_X7hzJ93n7O7e-t_0LyEjLbtWM5BXYWQmmQ7mzXRZeDWkc&s" onclick="Drvie1()">
+        <p>Google Drive</p>
+        </form>
+    </div>
+    </div>
+    <div class="Footer">
+        <ul>
+            <li><p><b>Contact : 9898442361</b></p></li>
+            <li><p><b>Email : maverik7371@gmail.com</p></li>
+        </ul>
+        <form action=" #">
+            <textarea name="msg" placeholder="Give Your feedback here"  style="text-align: center; width: 500px; height: 100px; margin: 0px 0px 0px 40px"></textarea>
+            <input type="submit" value="submit">
+        </form>
+        
+    </div>
+        
+        
+        
+    </body>
+</html>

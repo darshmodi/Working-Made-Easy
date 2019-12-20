@@ -1,0 +1,181 @@
+body{
+    background-color: rgb(208, 252, 255);
+    text-align: center
+}
+.headimage{
+    position: relative;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    background-size: 100%;
+
+    width: 100%;
+    height: 600px;
+    /* animation: animate 16s infinite; */
+    /* -webkit-animation-name: test; */
+    background-image: url(https://www.limeade.com/wp-content/uploads/2019/10/LSJusetoday.jpg);
+
+}
+/* @keyframes animate {
+    0%,100%   {background-image: url(https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);}
+    25%  {background-image: url(https://cdn.pixabay.com/photo/2016/11/21/15/13/blue-1845901__340.jpg);}
+    50%  {background-image: url(https://images.unsplash.com/photo-1508780709619-79562169bc64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);}
+    100% {background-image: url(https://images.unsplash.com/photo-1523908511403-7fc7b25592f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);}
+} */
+
+/* @keyframes animate background-image{
+    width: 100%;
+    height: 500px;
+} */
+
+#heading{
+    background-color:  #2eceff;
+    position: relative;
+    /* overflow: hidden; */
+    width: 100%;
+    height: 100px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.menu{
+    overflow: hidden;
+
+    float: left;
+    width: 22%;
+}
+
+.menu button{
+    background-color: #eee;
+    color: black;
+    width: 100%;
+    padding: 12px;
+}
+
+.menu button:hover{
+    background-color: #2eceff;
+    color: white;
+}
+
+
+.main{
+    float: left;
+    overflow: hidden;
+    background-color: rgb(208, 252, 255);
+    width: 60%;
+    height: 1750px;
+    text-align: center;
+}
+
+.buttons{
+    float: right;
+    overflow: hidden;
+
+    background-color: rgb(208, 252, 255);
+    width: 18%;
+    text-align: center;
+    height: 1100px;
+    justify-content: flex;
+
+
+}
+#container {
+    display: flex;
+    justify-content: flex;
+}
+
+#middle{
+    display: flex;
+    justify-content: flex;
+    /* width: 100%; */
+    padding-left: 20%;
+    padding-top: 1%;
+}
+
+.Weather1{
+    text-decoration: bold;
+    font-size: 30px;
+
+}
+
+.unit{
+    text-decoration: italic;
+    font-size: 20px;
+    text-align: right;
+}
+
+.NavBar{
+    height: 50px;
+    width: 100%;
+}
+.datecss{
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(58, 52, 52);
+    font-size: 20px;
+    text-align: left;
+}
+
+.button1{
+    width: 100px;
+     height: 100px;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.buttons button 
+{
+    width: 100px;
+    height: 100px;
+   border-radius: 45px;
+   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.myform input{
+    width: 90px;
+    height: 90px;
+   border-radius: 45px;
+   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.myform input:hover{
+    width: 90px;
+    height: 90px;
+   border-radius: 45px;
+   box-shadow: 3px 3px 3px 3px #888888;
+}
+
+.Footer{
+    background-color: #6eddff;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#middle ul{
+    text-align: left;
+}
+
+.Navbar{
+    overflow: hidden;
+    background-color: rgb(189, 189, 189);
+
+} 
+.datecss{
+    float: left;
+}
+.Navbar a{
+    width: 150px;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.Navbar a:hover{
+    background-color: #ddd;
+    color: black;
+    
+}
